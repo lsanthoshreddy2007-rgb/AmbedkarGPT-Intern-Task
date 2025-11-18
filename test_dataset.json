@@ -1,0 +1,254 @@
+{
+  "test_questions": [
+    {
+      "id": 1,
+      "question": "What is the real remedy for caste system according to Document 1?",
+      "ground_truth": "The real remedy is to destroy the belief in the sanctity of the shastras.",
+      "source_documents": [
+        "speech1.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 2,
+      "question": "What does Ambedkar say about the Buddha's view on rituals in Document 2?",
+      "ground_truth": "The Buddha was against ritualism, condemned sacrifices, rejected Vedic authority, denied prayer efficacy, and discarded gods.",
+      "source_documents": [
+        "speech2.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 3,
+      "question": "What two types of constitutional remedies does Ambedkar mention in Document 3?",
+      "ground_truth": "Fundamental rights which are justiciable, and directive principles which are not justiciable.",
+      "source_documents": [
+        "speech3.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 4,
+      "question": "What personal experiences of untouchability does Ambedkar describe in Document 4?",
+      "ground_truth": "Not allowed to drink from public wells, not allowed to enter temples, forced to live outside villages.",
+      "source_documents": [
+        "speech4.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 5,
+      "question": "Why does Ambedkar believe Pakistan's creation was inevitable in Document 5?",
+      "ground_truth": "Because Hindus and Muslims are two separate nations with different religions, cultures, and historical backgrounds who cannot live under one domination.",
+      "source_documents": [
+        "speech5.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 6,
+      "question": "Who does Ambedkar call 'broken men' in Document 6 and why?",
+      "ground_truth": "The untouchables, because they were original inhabitants defeated and subjugated by invading Aryans.",
+      "source_documents": [
+        "speech6.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 7,
+      "question": "Compare Ambedkar's views on education in Documents 4 and 6",
+      "ground_truth": "In Document 4, education is the key to liberation from personal experience. In Document 6, education is essential for political empowerment and organization.",
+      "source_documents": [
+        "speech4.txt",
+        "speech6.txt"
+      ],
+      "question_type": "comparative",
+      "answerable": true
+    },
+    {
+      "id": 8,
+      "question": "What is Ambedkar's concept of ideal society across Documents 1 and 3?",
+      "ground_truth": "Based on liberty, equality, and fraternity, with both political and social democracy.",
+      "source_documents": [
+        "speech1.txt",
+        "speech3.txt"
+      ],
+      "question_type": "conceptual",
+      "answerable": true
+    },
+    {
+      "id": 9,
+      "question": "How does Ambedkar relate political power to social change in Documents 3 and 6?",
+      "ground_truth": "In Document 3, constitutional rights protect minorities. In Document 6, political power is essential for untouchables' emancipation.",
+      "source_documents": [
+        "speech3.txt",
+        "speech6.txt"
+      ],
+      "question_type": "comparative",
+      "answerable": true
+    },
+    {
+      "id": 10,
+      "question": "What was Ambedkar's favorite food?",
+      "ground_truth": "This information is not available in the provided documents.",
+      "source_documents": [],
+      "question_type": "unanswerable",
+      "answerable": false
+    },
+    {
+      "id": 11,
+      "question": "When did Ambedkar visit the United States?",
+      "ground_truth": "This information is not available in the provided documents.",
+      "source_documents": [],
+      "question_type": "unanswerable",
+      "answerable": false
+    },
+    {
+      "id": 12,
+      "question": "What is the Dhamma according to Document 2?",
+      "ground_truth": "To avoid evil, to do good, and to purify the mind.",
+      "source_documents": [
+        "speech2.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 13,
+      "question": "What analogy does Ambedkar use for social reform in Document 1?",
+      "ground_truth": "Like a gardener pruning leaves and branches without attacking the roots.",
+      "source_documents": [
+        "speech1.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 14,
+      "question": "What fundamental rights does Ambedkar mention in Document 3?",
+      "ground_truth": "Right to equality, right to freedom, right against exploitation, and right to constitutional remedies.",
+      "source_documents": [
+        "speech3.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 15,
+      "question": "How did Ambedkar struggle for education according to Document 4?",
+      "ground_truth": "Went to school sitting outside classroom, studied under street lights, determined to get educated against all odds.",
+      "source_documents": [
+        "speech4.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 16,
+      "question": "What does Ambedkar say about the unity of India in Document 5?",
+      "ground_truth": "The unity of India is artificial and was created by the British. Before British, India was never united.",
+      "source_documents": [
+        "speech5.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 17,
+      "question": "What solution does Ambedkar propose for untouchables in Document 6?",
+      "ground_truth": "Annihilation of caste, organization, education, entering government services, and using political power.",
+      "source_documents": [
+        "speech6.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 18,
+      "question": "Compare the concept of 'enemy' in Documents 1 and 6",
+      "ground_truth": "In Document 1, the enemy is belief in shastras. In Document 6, the enemy is the caste system and social oppression.",
+      "source_documents": [
+        "speech1.txt",
+        "speech6.txt"
+      ],
+      "question_type": "comparative",
+      "answerable": true
+    },
+    {
+      "id": 19,
+      "question": "How does Ambedkar's view on religion differ between Documents 2 and 5?",
+      "ground_truth": "In Document 2, he praises Buddha's Dhamma as social moral code. In Document 5, he sees religion as dividing Hindus and Muslims into separate nations.",
+      "source_documents": [
+        "speech2.txt",
+        "speech5.txt"
+      ],
+      "question_type": "comparative",
+      "answerable": true
+    },
+    {
+      "id": 20,
+      "question": "What is the relationship between education and liberation in Ambedkar's philosophy?",
+      "ground_truth": "Education is essential for both personal liberation from oppression and political empowerment for social change.",
+      "source_documents": [
+        "speech4.txt",
+        "speech6.txt"
+      ],
+      "question_type": "conceptual",
+      "answerable": true
+    },
+    {
+      "id": 21,
+      "question": "What year was Ambedkar born?",
+      "ground_truth": "This information is not available in the provided documents.",
+      "source_documents": [],
+      "question_type": "unanswerable",
+      "answerable": false
+    },
+    {
+      "id": 22,
+      "question": "What specific restrictions did untouchables face according to Document 4?",
+      "ground_truth": "Not allowed to drink water from public wells, not allowed to enter temples, forced to live outside villages.",
+      "source_documents": [
+        "speech4.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 23,
+      "question": "How does Ambedkar define social democracy in Document 3?",
+      "ground_truth": "A way of life recognizing liberty, equality, and fraternity as principles of life.",
+      "source_documents": [
+        "speech3.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 24,
+      "question": "What does Ambedkar say about the Constitution in Document 3?",
+      "ground_truth": "It is not a mere lawyers' document but a vehicle of life whose spirit is always the spirit of age.",
+      "source_documents": [
+        "speech3.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    },
+    {
+      "id": 25,
+      "question": "How does Ambedkar characterize the Hindu-Muslim problem in Document 5?",
+      "ground_truth": "Fundamentally a problem of nationalities, not just communities, with two separate nations wanting separate homelands.",
+      "source_documents": [
+        "speech5.txt"
+      ],
+      "question_type": "factual",
+      "answerable": true
+    }
+  ]
+}

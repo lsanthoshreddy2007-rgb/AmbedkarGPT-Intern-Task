@@ -1,0 +1,12 @@
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+# Chroma persistence
+chroma_*/
+chroma_db/
+# Ollama data (if any)
+ollama_data/

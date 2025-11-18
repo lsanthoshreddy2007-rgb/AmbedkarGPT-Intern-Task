@@ -1,0 +1,10 @@
+langchain>=0.0.200
+chromadb
+sentence-transformers
+transformers
+ollama
+rouge-score
+nltk
+scikit-learn
+numpy
+tqdm
